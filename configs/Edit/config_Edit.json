@@ -1,0 +1,91 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": true,
+      "cutVisible": true,
+      "reshapeVisible": true
+    },
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "CPG_Stevens_Grants_4928"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "CENTROID_X",
+            "label": "CENTROID_X",
+            "isEditable": true
+          },
+          {
+            "fieldName": "CENTROID_Y",
+            "label": "CENTROID_Y",
+            "isEditable": true
+          },
+          {
+            "fieldName": "LO",
+            "label": "LO",
+            "isEditable": true
+          },
+          {
+            "fieldName": "GrantNo",
+            "label": "GrantNo",
+            "isEditable": true
+          },
+          {
+            "fieldName": "GIS_Acres",
+            "label": "GIS_Acres",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Percent_Di",
+            "label": "Percent_Di",
+            "isEditable": true
+          },
+          {
+            "fieldName": "BurnID",
+            "label": "BurnID",
+            "isEditable": true
+          },
+          {
+            "fieldName": "ReqAcres",
+            "label": "ReqAcres",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Reimb",
+            "label": "Reimb",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Funding_Yr",
+            "label": "Funding_Yr",
+            "isEditable": true
+          },
+          {
+            "fieldName": "BM",
+            "label": "BM",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Compl_Acre",
+            "label": "Compl_Acre",
+            "isEditable": true
+          },
+          {
+            "fieldName": "County",
+            "label": "County",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Tot_Diff",
+            "label": "Tot_Diff",
+            "isEditable": true
+          }
+        ]
+      }
+    ]
+  }
+}
