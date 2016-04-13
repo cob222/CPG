@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "name": "CPG_Stevens_Grants",
+      "url": "http://services2.arcgis.com/iXA1dC6ldRMKRwra/arcgis/rest/services/CPG_Stevens_Grants/FeatureServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "BurnID",
+              "label": "BurnID",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": false,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "BurnID is",
+              "hint": "BurnID"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": ""
+      },
+      "popup": {
+        "title": "${LO}",
+        "fields": []
+      },
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "objectIdField": "OBJECTID_1",
+      "orderByFields": []
+    }
+  ]
+}
